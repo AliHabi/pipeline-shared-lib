@@ -2,8 +2,8 @@
 package com.acceleratedskilup;
 class car {
 	int numberOfDoors
-	string brand
-	string model
+	String brand
+	String model
 	def script
 	
 		Car(script){
