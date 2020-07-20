@@ -6,10 +6,10 @@ class car {
 	String model
 	def script
 	
-		Car(script) {
+	Car(script) {
 		this.script = script
 	}
-	void prontOutCar(){
+	void printOutCar() {
 		script.echo "using script.echo"
 		script.echo "NumberOfDoors: ${numberOfDoors}"
 		script.echo "brand: ${brand}"
