@@ -6,8 +6,8 @@ class car {
 	String model
 	def script
 	
-		Car(script){
-		this.script=script
+		Car(script) {
+		this.script = script
 	}
 	void prontOutCar(){
 		script.echo "using script.echo"
