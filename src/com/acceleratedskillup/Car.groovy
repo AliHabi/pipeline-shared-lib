@@ -6,7 +6,7 @@ class car {
 	String model
 	def script
 	
-	Car(script) {
+	car(script) {
 		this.script = script
 	}
 	void printOutCar() {
